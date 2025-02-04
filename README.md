@@ -209,5 +209,5 @@ Start the client
 
 ## :handshake: Collaborators
 
-- [S Md Ismaeel Jabiulla](https://github.com/Jabi-0935)
+- [S Md ISMAEEL JABIULLA](https://github.com/Jabi-0935)
 
