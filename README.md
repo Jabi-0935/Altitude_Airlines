@@ -104,24 +104,19 @@ To run this project, you will need to add the following environment variables to
 
 `JWT_EXPIRES_IN`
 
-<!-- Getting Started -->
 
 ## :toolbox: Getting Started
 
-<!-- Prerequisites -->
-
 ### :bangbang: Prerequisites
 
-This project uses `npm` as package manager
-
-<!-- Installation -->
+This project requires `npm` as a package manager.
 
 ### :gear: Setup
 
-Clone the project
+Clone the project:
 
 ```bash
-
+git clone https://github.com/Jabi-0935/Altitude_Airlines.git
 ```
 
 Go to the project directory
