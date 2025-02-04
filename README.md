@@ -172,7 +172,7 @@ This project uses `npm` as package manager
 Clone the project
 
 ```bash
-  git clone https://github.com/anand-2020/airline-booking-management-system
+
 ```
 
 Go to the project directory
@@ -209,9 +209,5 @@ Start the client
 
 ## :handshake: Collaborators
 
-- [Anand Amar](https://github.com/anand-2020)
-- [Divyansh Agrawal](https://github.com/divyansh67)
-- [Rahul Pathak](https://github.com/rahulpathak-github)
-# Altitude_Airlines
-# Altitude_Airlines
-# Altitude_Airlines
+- [S Md Ismaeel Jabiulla](https://github.com/Jabi-0935)
+
