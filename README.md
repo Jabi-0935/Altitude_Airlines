@@ -116,7 +116,7 @@ This project requires `npm` as a package manager.
 Clone the project:
 
 ```bash
-git clone https://github.com/Jabi-0935/Altitude_Airlines.git
+  git clone https://github.com/Jabi-0935/Altitude_Airlines.git
 ```
 
 Go to the project directory
@@ -151,7 +151,7 @@ Start the client
 
 <!-- Contact -->
 
-## :handshake: Collaborators
+## :handshake: Developer
 
 - [S Md ISMAEEL JABIULLA](https://github.com/Jabi-0935)
 
