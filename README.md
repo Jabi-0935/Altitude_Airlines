@@ -4,9 +4,8 @@
   <h1>Altitude Airlines</h1>
   
   <p>
-    
-    A flight ticket booking and management application 
-    designed and built as the course project for Database Systems Laboratory, Spring 2022 at IIT Bhubaneswar 
+    A flight ticket booking and management application that allows users to search, book, and manage flight tickets efficiently. 
+    It includes features for customers, admins, and super-admins to handle flight schedules, reservations, cancellations, and enterprise data management.
   </p>
 
    <p>
@@ -14,8 +13,6 @@
   </p>
   
 </div>
-
-<!-- Table of Contents -->
 
 # :notebook_with_decorative_cover: Table of Contents
 
@@ -31,111 +28,63 @@
   - [Setup](#gear-setup)
 - [Collaborators](#handshake-collaborators)
 
-<!-- About the Project -->
-
 ## :star2: About the Project
 
-<!-- Screenshots -->
+Altitude Airlines is a full-fledged flight booking and management system designed to provide a seamless experience for customers while ensuring efficient administration. It features dynamic ticket pricing, role-based access, and real-time schedule updates.
 
 ### :camera: Screenshots
 
 <div align="center"> 
-  <img src="https://user-images.githubusercontent.com/62535734/164721781-69dcd728-baaa-43c5-adf0-8ac76c003bb7.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/62535734/164731324-e0458e1b-2084-4928-bea7-4ca0156c88b3.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/62535734/164721242-2312a6df-a22f-40af-9aaf-60389a0cc688.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/62535734/164721911-140a2da5-18d9-488e-97df-807bc6bbd781.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/62535734/164721211-7da15af4-7f70-416f-b3c4-5be80b80e83f.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/62535734/164722092-fc80a37e-598d-43b9-baca-d0762408bb18.png" width="30%"></img> 
+  <img src="https://user-images.githubusercontent.com/62535734/164721781-69dcd728-baaa-43c5-adf0-8ac76c003bb7.png" width="30%"></img> 
+  <img src="https://user-images.githubusercontent.com/62535734/164731324-e0458e1b-2084-4928-bea7-4ca0156c88b3.png" width="30%"></img> 
+  <img src="https://user-images.githubusercontent.com/62535734/164721242-2312a6df-a22f-40af-9aaf-60389a0cc688.png" width="30%"></img> 
 </div>
-
-<!-- TechStack -->
 
 ### :space_invader: Tech Stack
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://mui.com/">MaterialUI</a></li>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://nodejs.org/en/">Node.js</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
+- **Client:** React.js, Material UI  
+- **Server:** Node.js, Express.js  
+- **Database:** MySQL  
 
 ### :dart: Features
 
-<details>
-<Summary>Customer</summary>
-<ul>
-<li>View flights between a source and destination for a given date and a window around it</li>
-<li>Reserve seat(s) each with a unique id and corresponding passenger details using a seat map for the chosen flight</li>
-<li>A ticket will be generated after payment of the fare which is calculated dynamically based on the travel distance, seat preference, profession
-of the customer and time gap between booking date and departure date</li>
-<li>Customers can view tickets categorized into two categories namely, Upcoming Journeys and Archive</li>
-<li>Download tickets as dynamically generated PDFs
-Cancel a ticket and receive appropriate refund based on the time gap between cancellation and departure date</li>
-<li>View and edit their personal details from their profiles</li>
-</ul>
-</details>
+#### Customer
+- Search flights with flexible date options  
+- Reserve seats with unique IDs and passenger details  
+- Dynamic ticket pricing based on distance, seat preference, and booking time  
+- View booked tickets categorized as Upcoming Journeys and Archive  
+- Download tickets as dynamically generated PDFs  
+- Cancel tickets with refund policies  
+- Manage personal details from the user profile  
 
-<details>
-<Summary>Admin</summary>
-<ul>
-<li>Admins have additional permissions to view the enterprise data which includes details about flight routes, their weekly schedules</li>
-</ul>
-</details>
+#### Admin
+- View enterprise data, including flight routes and schedules  
 
-<details>
-<Summary>Super-Admin</summary>
-<ul>
-<li>Super-Admins have extra privileges that allow them to edit (and read) the enterprise data</li>
-<li>Can delay or cancel a flight for a certain date</li>
-<li>Can add new flight routes and schedules along with extending the lease date for a certain flight</li>
-</ul>
-</details>
+#### Super-Admin
+- Modify flight schedules, delay/cancel flights, extend aircraft leases  
+- Manage enterprise data with extra privileges  
 
-<details>
-<Summary>Additional</summary>
-<ul>
-<li>As the airline is multinational, the issues that arise due to difference in time zones are taken care of using various
-built-in and custom functions</li>
-<li>Every change in the database goes through a rigorous check in frontend, backend and the database itself to
-ensure that the records are error free</li>
-<li>Ticket fares are calculated dynamically based on travel distance, seat preference, profession of the customer and
-time gap between booking date and departure date</li>
-<li>A record of all flights scheduled in the upcoming 56 days is stored and updated regularly</li>
-<li>A seat can be booked again after cancellation by the current holder</li>
-</ul>
-</details>
-
-<!-- Color Reference -->
+#### Additional Features
+- Handles time zone differences  
+- Data validation across frontend, backend, and database  
+- Ensures error-free records with rigorous checks  
+- Seats become available for rebooking after cancellation  
 
 ### :bricks: Schema
 
 <div align="center">
-<img src="client/src/assets/images/schema/schema.png" alt="logo" width="100%" height="auto" />
+<img src="client/src/assets/images/schema/schema.png" alt="schema" width="100%" height="auto" />
 </div>
 
 ### :bricks: Stored Objects
 
 <div align="center">
-<img src="client/src/assets/images/storedObjects/stored_objects.png" alt="logo" width="100%" height="auto" />
+<img src="client/src/assets/images/storedObjects/stored_objects.png" alt="stored_objects" width="100%" height="auto" />
 </div>
-<!-- Env Variables -->
 
 ### :key: Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to your `.env` file:
 
 `PORT`
 
